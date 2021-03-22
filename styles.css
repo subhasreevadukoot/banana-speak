@@ -5,6 +5,9 @@ textarea{
     margin:1rem;
   
 }
+body{
+  font-family: 'Lato','Sans Serif';
+}
 #output{
     border:1px solid black;
     width: 500px;
@@ -13,44 +16,44 @@ textarea{
     height: 30vh;
     padding: 1rem;
 }
+#img{
+  width: auto;
+    transition: max-width 1s min-width 1s;
+    width:80px;
+}
 #btn-translate{
-    background-color: lightpink;
+    background-color:yellow;
     width: 250px;
     height:5vh;
-    padding:1rem;
+    padding:2rem;
     margin:1rem;
     display: block;
+    font-family: 'Hachi Maru Pop', cursive;
+    
 }
-##btn-translate :hover{
-    background-color: lightskyblue;
+#btn-translate:hover{
+    background-color: sandybrown;
+    font-family: 'Hachi Maru Pop', cursive;
 }
 .translation{
     align:center;
 }
 .nav {
-    background-color:indianred;
+    background-color:yellow;
     overflow: hidden;
-  }
-.nav a {
-    float: left;
-    color: #f2f2f2;
+    padding: 10px;
+	  font-family: 'Hachi Maru Pop', cursive;
+    margin:5px 0 10px 0;
+    font-size: large;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    align-items: center;
+    display: flex;
   }
+
   
   /* Change the color of links on hover */
-  .nav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .nav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
+ 
   .footer{
-      background-color:indianred;
+    font-family: 'Hachi Maru Pop', cursive;
+      background-color: yellow;
   }
